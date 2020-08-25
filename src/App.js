@@ -5,10 +5,6 @@ import firebase from 'firebase';
 import PassengerFlight from './components/PassengerFlight';
 import Loading from './components/Loading';
 
-const getFSdata = () => {
-  
-}
-
 function App() {
   const [flights, setFlights] = useState(null);
   const [user, setUser] = useState(null);
