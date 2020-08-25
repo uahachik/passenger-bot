@@ -55,6 +55,8 @@
 }
 
 .section > button {
+	width: 53%;
+	margin: 0 auto;
 	color: green;
 	border-radius: 16px;
 	box-shadow: 0 0 2px 0 var(--box-shadow);
