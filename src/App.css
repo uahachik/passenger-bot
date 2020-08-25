@@ -17,7 +17,7 @@
 	max-width: 300px;
 	padding: 5px 10px;
 	background-color: #fff;
-	color: rgb(10, 12, 73);
+	color: rgb(1, 1, 23);
 }
 
 .flights * {
@@ -82,6 +82,17 @@
 	border-image-outset: 0;
 	border-image-repeat: initial;
 	outline: none;
+}
+
+.wrapper {
+	width: 77%;
+	margin: 0 auto;
+}
+
+.wrapper > div {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	text-align: left;
 }
 
 .city {
